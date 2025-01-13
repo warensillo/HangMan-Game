@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.hangman.Controllers.CategorySelectionController"
+            prefHeight="400.0" prefWidth="600.0">
+
+
+        <Label text="Select a Category" style="-fx-font-size: 24px;"/>
+        <Button text="Countries" onAction="#onCategorySelected"/>
+        <Button text="Food" onAction="#onCategorySelected"/>
+        <Button text="Animals" onAction="#onCategorySelected"/>
+        <Button text="Random" onAction="#onCategorySelected"/>
+
+
+</AnchorPane>
